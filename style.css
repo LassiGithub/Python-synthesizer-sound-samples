@@ -1,0 +1,68 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto/Roboto-Light.ttf);
+    
+}
+
+@font-face {
+    font-family: roboto2;
+    src: url(./Roboto/Roboto-Light.ttf);
+}
+
+#banner {
+    width: 120%;
+    height: 100px;
+    overflow: hidden;
+    background-color:rgb(236, 207, 144);
+}
+
+#banner-bottom {
+    width: 120%;
+    height: 10px;
+    background-color:rgb(218, 182, 86);
+    box-shadow: 0px 5px 4px 3px rgba(37, 21, 36, 0.07);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+
+    background-color: rgb(250, 248, 239);
+
+    font-family: roboto, roboto2;
+}
+
+p {
+    line-height: 32px;   /* within paragraph */
+    margin-bottom: 50px; /* between paragraphs */
+    margin-top: 50px; /* between paragraphs */
+}
+
+#content {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 100px;
+    padding-top: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(202, 126, 91);
+    margin-bottom: 100px; /* between paragraphs */
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(155, 105, 82);
+    margin-top: 150px;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(155, 105, 82);
+    margin-top: 60px;
+}
+

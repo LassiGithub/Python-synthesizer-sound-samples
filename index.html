@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synthesizer sound samples</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="banner"></div>
+    <div id="banner-bottom"></div>
+    
+    <div id="content">
+
+        <h1>Synthesizer Sound Samples</h1>
+
+        <h2>Introduction</h2>
+
+        <p>
+            These are sound samples for my python synthesizer project.
+            The structure of this page roughly follow the .ipynb file, 
+            so you should be able to quite easily find the corresponding sound examples. 
+            However, this page also contains some extra examples that aren't present in the .ipynb file. 
+            If you're not interested in how the program works, you can also just listen to these without looking at the .ipynb file at all.
+        </p>
+
+        <h2>Basic Sound Generation</h2>
+
+        <p>The following two examples can be found in the "generating sound" and "generating a melody" sections of the .ipynb file.</p> 
+        <p>The first example is a single note, synthesized using parameters chosen by hand:</p>
+
+        <audio controls>
+            <source src="audio/generated_sound.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+        <p>The second one uses the same parameters, but is synthesized as a melody instead of a single note:</p>
+
+        <audio controls>
+            <source src="audio/generated_melody.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+    
+        <h2>Randomized Sounds</h2>
+
+        <p>
+            This example is a sound (single note) with randomized parameters. In the .ipynb file, this would be the "generating a randomized sound" section:
+        </p>
+
+        <audio controls>
+            <source src="audio/randomized_sound.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+        <h2>Machine Learning Predictions with Randomized Sounds</h2>
+
+        <p>
+            These examples contain more sounds with randomized parameters, 
+            and also predictions made by a machine learning model. 
+            A sound with random parameters is first created, 
+            then the sound is given to a model, 
+            that will predict the parameters. 
+            Each of these example pairs contains first a sound synthesized with the original parameters, then a sound synthesized with the predicted parameters. 
+            In the .ipynb file, this would be the "generated sound prediction" section:
+        </p>
+
+        <figure>
+            <figcaption>Example 0 original:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_0_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 0 predicted:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_0_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 1 original:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_1_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 1 predicted:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_1_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 2 original:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_2_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 2 predicted:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_2_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 3 original:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_3_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 3 predicted:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_3_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 4 original:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_4_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 4 predicted:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_4_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 5 original:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_5_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 5 predicted:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_5_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 6 original:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_6_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 6 predicted:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_6_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 7 original:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_7_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 7 predicted:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_7_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 8 original:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_8_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 8 predicted:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_8_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 9 original:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_9_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Example 9 predicted:</figcaption>
+            <audio controls>
+                <source src="audio/randomly_generated_sounds/random_sound_9_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <p>As you can hear, the predictions aren't perfect, but they are quite close! 
+            It's almost like having a different version of the same sound.</p>
+        
+
+        <h2>Machine Learning Predictions with Recorded Sounds</h2>
+
+        <p>
+            Similar to above, we have predictions made by the machine learning model.  
+            However, this time it's predicting parameters for sounds that aren't from a synthesizer.  
+            I recorded these sounds with a microphone, and most of them are impossible to recreate with this synthesizer.  
+            It's interesting to see how the model will attempt to do that. 
+            In the .ipynb file, this would be the "non-synth sound prediction" section:
+        </p>
+
+        <figure>
+            <figcaption>Bowl original:</figcaption>
+            <audio controls>
+                <source src="audio/recorded_sounds/recorded_bowl_sound_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Bowl predicted:</figcaption>
+            <audio controls>
+                <source src="audio/recorded_sounds/recorded_bowl_sound_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Clap original:</figcaption>
+            <audio controls>
+                <source src="audio/recorded_sounds/recorded_clap_sound_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Clap predicted:</figcaption>
+            <audio controls>
+                <source src="audio/recorded_sounds/recorded_clap_sound_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Organ original:</figcaption>
+            <audio controls>
+                <source src="audio/recorded_sounds/recorded_organ_sound_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Organ predicted:</figcaption>
+            <audio controls>
+                <source src="audio/recorded_sounds/recorded_organ_sound_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Pencil original:</figcaption>
+            <audio controls>
+                <source src="audio/recorded_sounds/recorded_pencil_sound_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Pencil predicted:</figcaption>
+            <audio controls>
+                <source src="audio/recorded_sounds/recorded_pencil_sound_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Ukulele original:</figcaption>
+            <audio controls>
+                <source src="audio/recorded_sounds/recorded_ukulele_sound_original.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Ukulele predicted:</figcaption>
+            <audio controls>
+                <source src="audio/recorded_sounds/recorded_ukulele_sound_predicted.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </figure>
+
+        <p>
+            Perhaps as expected, the model is having quite a difficult time with these. 
+            It's clear that what the model learned was not the overall idea of the sounds in the same way as a human understands them.  
+            It must have picked up on some more specific patterns, that it tries to find in these recorded sounds.  
+        </p>
+
+    </div>
+</body>
+</html>
