@@ -18,40 +18,51 @@
         <h2>Introduction</h2>
 
         <p>
-            These are sound samples for my python synthesizer project.
-            The structure of this page roughly follow the .ipynb file, 
+            These are sound samples for my python synthesizer project. 
+            The structure of this page roughly follow the jupyter notebook file of that original project, 
             so you should be able to quite easily find the corresponding sound examples. 
-            However, this page also contains some extra examples that aren't present in the .ipynb file. 
-            If you're not interested in how the program works, you can also just listen to these without looking at the .ipynb file at all.
+            If you're here from the machine learning project, sound samples of the model's predictions are also below.  
         </p>
 
         <h2>Basic Sound Generation</h2>
 
-        <p>The following two examples can be found in the "generating sound" and "generating a melody" sections of the .ipynb file.</p> 
-        <p>The first example is a single note, synthesized using parameters chosen by hand:</p>
+        <p>The following two examples can be found in the "generating sound" and "generating a melody" sections of the synthesizer notebook. 
+           The first example is a single note, synthesized using parameters chosen by hand. 
+           The second one uses the same parameters, but is synthesized as a melody instead of a single note. 
+        </p> 
 
-        <audio controls>
-            <source src="audio/generated_sound.wav" type="audio/wav">
-          Your browser does not support the audio element.
-        </audio>
+        <figure>
+            <figcaption>Generated sound:</figcaption>
+            <audio controls>
+             <source src="audio/generated_sound.wav" type="audio/wav">
+            Your browser does not support the audio element.
+            </audio>
+        </figure>
 
-        <p>The second one uses the same parameters, but is synthesized as a melody instead of a single note:</p>
-
-        <audio controls>
+        <figure>
+          <figcaption>Generated melody:</figcaption>
+          <audio controls>
             <source src="audio/generated_melody.wav" type="audio/wav">
           Your browser does not support the audio element.
-        </audio>
-    
+          </audio>
+        </figure>
+
+      
         <h2>Randomized Sounds</h2>
 
         <p>
-            This example is a sound (single note) with randomized parameters. In the .ipynb file, this would be the "generating a randomized sound" section:
+            This example is a sound (single note) with randomized parameters. In the synthesizer notebook, this would be the "generating a randomized sound" section.
         </p>
 
-        <audio controls>
+        <figure>
+          <figcaption>Randomized sound:</figcaption>
+          <audio controls>
             <source src="audio/randomized_sound.wav" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
+        </figure>
+
+        
 
         <h2>Machine Learning Predictions with Randomized Sounds</h2>
 
@@ -62,7 +73,7 @@
             then the sound is given to a model, 
             that will predict the parameters. 
             Each of these example pairs contains first a sound synthesized with the original parameters, then a sound synthesized with the predicted parameters. 
-            In the .ipynb file, this would be the "generated sound prediction" section:
+            In the synthesizer notebook file, this would be the "generated sound prediction" section.
         </p>
 
         <figure>
@@ -236,7 +247,7 @@
             However, this time it's predicting parameters for sounds that aren't from a synthesizer.  
             I recorded these sounds with a microphone, and most of them are impossible to recreate with this synthesizer.  
             It's interesting to see how the model will attempt to do that. 
-            In the .ipynb file, this would be the "non-synth sound prediction" section:
+            In the synthesizer notebook file, this would be the "non-synth sound prediction" section.
         </p>
 
         <figure>
